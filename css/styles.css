@@ -1,0 +1,24 @@
+.wrapper-preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    transition: 0.5s;
+    opacity: 0.8;
+}
+
+.cart:active {
+    background-color: #111 !important;
+}
+
+.cursor-pointer:hover {
+    cursor: pointer;
+    color: rgb(218, 30, 30);
+}
+
